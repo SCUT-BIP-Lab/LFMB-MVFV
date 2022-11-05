@@ -15,7 +15,7 @@ The SCUT LFMB-MVFV Dataset consists of three subset, namely the multi-angle view
 
 --__Index_of_common_finger.txt__: The index of fingers shared by the three data subsets.   
 --__the multi-angle views subset samples__: data samples in the multi-angle views subset provided to understand this dataset in detail.  
---__the multi-finger-rotation views subset samples__: data samples in the multi-finger-rotation views subset provided to understand this dataset in detail. 
+--__the multi-finger-rotation views subset samples__: data samples in the multi-finger-rotation views subset provided to understand this dataset in detail.  
 --__the multi-illumination views subset samples__: data samples in the multi-illumination views subset provided to understand this dataset in detail. 
 
 
@@ -27,12 +27,12 @@ We have made part of the dataset available for download in the repo in order to 
 
 While reporting results using the __SCUT LFMB-MVFV Dataset__, please cite the following article:    
 
-@inproceedings{yang2022MVFV,
-  title={Multi-view Finger Vein Recognition using Attention-based MVCNN},
-  author={Yang, Weili and Huang, Junduan and Chen, Zhuoming and Zhao, Junhong and Kang, Wenxiong},
-  booktitle={2022 Chinese Conference on Biometrics Recognition (CCBR)},
-  year={2022}
-}
+@inproceedings{yang2022MVFV,  
+  title={Multi-view Finger Vein Recognition using Attention-based MVCNN},  
+  author={Yang, Weili and Huang, Junduan and Chen, Zhuoming and Zhao, Junhong and Kang, Wenxiong},  
+  booktitle={2022 Chinese Conference on Biometrics Recognition (CCBR)},  
+  year={2022}  
+}  
 
 
 
