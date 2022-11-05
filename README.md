@@ -1,6 +1,6 @@
 # SCUT LFMB-MVFV Dataset
 This repository is the Large-scale Finger Multi-Biometric database and benchmark for Multi-View Finger Vein (LFMB-MVFV) from paper:   
-__Multi-view Finger Vein Recognition using Attention-based MVCNN.   CCBR2022 Oral  
+Multi-view Finger Vein Recognition using Attention-based MVCNN.   CCBR2022 Oral  
 By Weili Yang, Junduan Huang, Zhuoming Chen, Junhong Zhao, and Wenxiong Kang  
 
 
@@ -10,23 +10,19 @@ Finger vein images are susceptible to finger posture variation and inappropriate
 
 ## SCUT LFMB-MVFV Dataset
 **the Large-scale Finger Multi-Biometric database and benchmark for Multi-View Finger Vein (LFMB-MVFV)**
-The SCUT LFMB-MVFV Dataset consists of three subset, namely the multi-angle views subset, the multi-finger-rotation views subset, the multi-illumination views subset. Each of the three subsets acquired a kind of multi-view finger vein image set of the same 668 fingers. The multi-angle views subset adopted the multi-angle views imaging method, which capture multiple finger vein images with multiple cameras surrounding the finger. The multi-finger-rotation views subset adopted the multi-finger-rotation views imaging method, which capture image sequences of the finger under longitudinal rotation with a single camera. The multi-illumination views subset adopted the multi-illumination views imaging method, which capture multiple images of the finger under different light intensities with a single camera. And we provide the common finger index in the three subsets, as well as the inter- and intra-class pairs files for the validation and testing sets.
+The SCUT LFMB-MVFV Dataset consists of three subset, namely the multi-angle views subset, the multi-finger-rotation views subset, the multi-illumination views subset. Each of the three subsets acquired a kind of multi-view finger vein image set of the same 668 fingers. The multi-angle views subset adopted the multi-angle views imaging method, which capture multiple finger vein images with multiple cameras surrounding the finger. The multi-finger-rotation views subset adopted the multi-finger-rotation views imaging method, which capture image sequences of the finger under longitudinal rotation with a single camera. The multi-illumination views subset adopted the multi-illumination views imaging method, which capture multiple images of the finger under different light intensities with a single camera. And we provide the common finger index in the three subsets.
 
-？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？？
---__common_finger_index__: the finger data in training set.   
---__datasamples__: data samples provided to understand this dataset in detail.  
---__datasamples/LFMB-3DFB_Pictures_Seged_Rectified__: each capture get 6 raw images by the 6 different views of the imaging system, and we rectified and segmented the finger.     
---__datasamples/Deformed_Meshes_cylinder382_textured__: reconstructed 3D holographic finger models with textures with 382 vertices.    
---__datasamples/Deformed_Meshes_cylinder662_textured__: reconstructed 3D holographic finger models with textures with 662 vertices.   
---__datasamples/Deformed_Meshes_cylinder1022_textured__: reconstructed 3D holographic finger models with textures with 1022 vertices.   
---__datasamples/Deformed_Meshes_cylinder2602_textured__: reconstructed 3D holographic finger models with textures with 2602 vertices.   
---__datasamples/Deformed_Meshes_cylinder5543_textured__: reconstructed 3D holographic finger models with textures with 5543 vertices.   
---__datasamples/Deformed_Meshes_cylinder10064_textured__: reconstructed 3D holographic finger models with textures with 10064 vertices.   
+
+--__Index_of_common_finger.txt__: The index of fingers shared by the three data subsets.   
+--__the multi-angle views subset samples__: data samples in the multi-angle views subset provided to understand this dataset in detail.  
+--__the multi-finger-rotation views subset samples__: data samples in the multi-finger-rotation views subset provided to understand this dataset in detail. 
+--__the multi-illumination views subset samples__: data samples in the multi-illumination views subset provided to understand this dataset in detail. 
+
 
 ## Request
 The __SCUT LFMB-MVFV Dataset__ is publicly available(free of charge) to the research community. Unfortunately, due to privacy reasons, we cannot provide the database for commercial use.
 
-We have made part of the dataset available for download in the repo in order to get a detailed view of this data. Those interested in obtaining the whole __SCUT LFMB-MVFV Dataset__ should download [release agreement](https://github.com/SCUT-BIP-Lab/LFMB-3DFB/blob/main/SCUT%20LFMB-3DFB%20Database%20Release%20Agreement.docx??????????????????????？？？？？？？？？？？？？？？？？？?), and send by e-mail one signed and scanned copy to scutbip@outlook.com.
+We have made part of the dataset available for download in the repo in order to get a detailed view of this data. Those interested in obtaining the whole __SCUT LFMB-MVFV Dataset__ should download [release agreement](https://github.com/SCUT-BIP-Lab/LFMB-MVFV/blob/main/SCUT%20LFMB-MVFV%20Database%20Release%20Agreement.docx), and send by e-mail one signed and scanned copy to scutbip@outlook.com.
 
 
 While reporting results using the __SCUT LFMB-MVFV Dataset__, please cite the following article:    
